@@ -28,7 +28,8 @@ li {
 }
 
 li a {
-  display: block;
+  display: flex;
+  align-items: flex-end;
   color: #4D5873;
   text-align: center;
   padding: 30px 30px;
@@ -58,8 +59,11 @@ li a {
 }
 
 .caption{
+  display: flex;
+  align-items: center;
   text-align: center;
   width: 50%;
+  background-color: rgba(199, 161, 74, 0.5);
   height: auto;
   margin: auto;
   color: white;
@@ -92,26 +96,29 @@ h2{
   margin-right: auto;
   width: 50%;
   border: 10px solid #4D5873;
+}
+
+.c02Graph:hover{
+  transform: scale(1.2);
 
 }
+
 .sixContainer{
 
   background-color: rgba(77, 88, 115, 0.8);
   width: 100%;
+  display: flex;
 }
 
 .thumbnail {
-  width: 16.6%;
+  display: flex;
   height: auto;
   position: relative;
 }
 
 .desc {
-
-  padding-top: 40px;
-  padding-bottom: 10px;
   text-align:center;
   display: inline-block;
   color: white;
-  width: 16%;
+  width: 15%;
 }

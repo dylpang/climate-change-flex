@@ -29,7 +29,8 @@ li {
 }
 
 li a {
-  display: block;
+  display: flex;
+  align-items: flex-end;
   color: #4D5873;
   text-align: center;
   padding: 30px 30px;
@@ -65,6 +66,10 @@ li a {
   margin-right: auto;
 }
 
+.researchPic:hover{
+  transform: scale(1.2);
+}
+
 .caption {
   color: white;
   background-color: rgba(199, 161, 74, 0.5);
@@ -94,6 +99,7 @@ h1, h2 {
 
 .splitTextContainer{
   display: flex;
+
   width: 100%;
 }
 .thumbnail {
@@ -106,6 +112,6 @@ h1, h2 {
 }
 
 p {
-  display: block;
+  display: flex;
   color: white;
 }
