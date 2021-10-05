@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background-image: url(https://wallpaperaccess.com/full/162119.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  padding 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  padding-right: 50px;
+}
+
+li a {
+  display: block;
+  color: #4D5873;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.navBar {
+  font-size: 24px;
+  background-color: #C7A14A;
+  position: fixed;
+  width: 100%;
+  display: block;
+}
+
+.logoBox {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: auto;
+
+}
+
+.mainContainer{
+  padding-top: 70px;
+
+}
+
+h1 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.parent{
+  width: 100%;
+
+}
+
+.child{
+  float: left;
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+
+.imgContainer{
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+
+}
+
+.button{
+  font-weight: bold;
+  margin-left: 50px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 50px 200px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.button:hover{
+  background-color: #4CAF10;
+  color: white;
+}
+
+
+.thumbnail{
+  display: inline;
+  width: 50%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  margin-right: 60px;
+  background-color:  rgba(199, 161, 74, 0.5);
+  color: white;
+  font-size: 35px
+
+}
+
+.caption{
+  margin-left: 50px;
+}
